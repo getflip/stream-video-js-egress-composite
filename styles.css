@@ -1,0 +1,35 @@
+.str-video__paginated-grid-layout .str-video__paginated-grid-layout__group {
+    max-width: none;
+}
+
+.str-video__speaker-layout
+.str-video__speaker-layout__participants-bar-wrapper
+.str-video__speaker-layout__participants-bar
+.str-video__speaker-layout__participant-tile {
+    min-width: 33vh;
+}
+
+.str-video__paginated-grid-layout .str-video__paginated-grid-layout__group {
+    padding-inline: 8px;
+}
+
+.str-video__paginated-grid-layout .str-video__paginated-grid-layout--one {
+    padding-inline: 0;
+}
+
+.str-video__participant-view
+.str-video__participant-details
+.str-video__participant-details__name {
+    padding: 0 4px;
+}
+
+.str-video__speaker-layout {
+    gap: 8px;
+}
+
+.str-video__paginated-grid-layout
+.str-video__paginated-grid-layout__group.str-video__paginated-grid-layout--one
+.str-video__participant-view {
+    flex-basis: 100%;
+    border-radius: 0;
+}
