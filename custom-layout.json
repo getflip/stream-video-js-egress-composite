@@ -58,5 +58,10 @@
   "grid.margin": 10,
   "grid.size_percentage": 20,
   "layout.single-participant.mode": "default",
-  "layout.single-participant.padding_inline": "0%"
+  "layout.single-participant.padding_inline": "0%",
+  "participant.filter": {
+    "roles": {
+      "$contains": "host"
+    }
+  }
 }
